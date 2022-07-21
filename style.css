@@ -1,0 +1,195 @@
+h1{
+    font-size: 35px; 
+}
+
+.button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+.container{
+    
+    display: flex;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    align-items:stretch;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    
+    
+}
+
+.container-2{
+    
+    display: flex;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    align-items:stretch;
+    border-radius: 20px;
+    background-color: white;
+    color: white;
+    
+    
+}
+
+.box{
+    
+    width: 35%; 
+    height: auto;
+    padding: 10px;
+    
+}
+
+#box-2{
+    justify-content: center;
+   flex-grow: 1;
+   text-align: center;
+      
+}
+
+.box-3{
+    
+    width: 200px; 
+    height: 200px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    margin: 10px;
+    padding: 30px;
+    background-color: black;
+    border-radius: 15px;
+
+    
+    
+}
+.container-grid{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    color: black;
+    margin: 0px;
+    padding: 7px;
+    justify-content: space-around;
+    
+}
+
+.item{
+    border: 1px solid gray;
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+    
+    
+}
+
+.button-2{
+    
+    border: 1px solid gray;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+#foter-item{
+    font-family: "Sofia", sans-serif;
+    display: flex;
+    justify-content:space-evenly;
+    
+    font-size: small;
+    border-top: 1px solid white;
+    padding-top: 15px;
+    width: 80%;
+    height: 20px;
+    flex-wrap: wrap;
+    
+}
+
+/* smaller device */
+
+@media screen and (max-width: 576px) {
+
+    .container-grid{
+    
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+        color: black;
+        margin: 0px;
+        padding: 7px;
+        justify-content: space-around;
+        
+    }
+    
+    #foter-item{
+        font-family: "Sofia", sans-serif;
+        display: flex;
+       
+        flex-direction: column;
+        font-size: small;
+        border-top: 1px solid white;
+        padding-top: 15px;
+        width: 80%;
+        height: auto;
+        
+        
+    }
+}
+
+/* medium device */
+
+@media screen and (min-width: 577px) and (max-width:768px) {
+
+    .container-grid{
+    
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        color: black;
+        margin: 0px;
+        padding: 7px;
+        justify-content: space-around;
+        
+    }
+
+  
+    
+}
+.social-icon{
+    
+    display: flex;
+    width: 200px;
+    height: auto;
+    justify-content:space-between;
+    
+}
+h4:hover{
+    font-size: large;
+}
